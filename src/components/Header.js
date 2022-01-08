@@ -1,3 +1,11 @@
+import { Link } from 'react-router-dom'
+
 export default function Header(props) {
-    return <h1>Header</h1>
+    return (
+        <nav className="nav">
+            <Link to="/">
+                <div>Cheese Index</div>
+            </Link>
+        </nav>
+    )
 };
